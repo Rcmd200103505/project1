@@ -1,0 +1,33 @@
+.main1{
+    background-position: center calc(120% + 0px);
+    height: 650px;
+	background-size: cover;
+    background-image: url("background-img/mountt.png");
+}
+.main1-text{
+    width: 70%;
+    color: #1f2b3f;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.visible{
+    display: none;
+}
+.text1{
+    padding-left: 100px;
+    padding-right: 250px;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+.text1 h1{
+    font-size: 40px;
+    width: 85%;
+    color: rgba(31,43,63,255);
+    font-weight: 700;
+}
+.tex1{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}

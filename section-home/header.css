@@ -1,0 +1,27 @@
+.header{
+    background: #1f2b3f;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.header__a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header__a:hover{
+    color: #5484d4;
+    transition: 0.3s;
+}

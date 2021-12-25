@@ -1,0 +1,47 @@
+.founder{
+    color: #1f2b3f;
+    background-color: #5484d4;
+}
+.founder-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.founder-imgs{
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    text-align: center;
+}
+.founder-img1{
+    width: 255px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.founder-img1 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.founder-img:hover img {
+    transform: scale(1.1);
+}
+.founder-img:hover .white-name {
+    color: #1f2b3f;
+    transition: 0.3s;
+}
+.founder-item{
+    width: 50%;
+}
+.founder-text{
+    display: flex;
+    justify-content: space-between;
+}
+.founder-text1{
+    font-size: 15px;
+    width: 45%;
+}
+.qoute{
+    font-weight: 700;
+}
+.white-name{
+    color: white;
+}
